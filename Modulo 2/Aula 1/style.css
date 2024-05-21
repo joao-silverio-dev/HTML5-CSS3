@@ -1,0 +1,47 @@
+table {
+    border-collapse: collapse;
+    border: 2px solid black;
+    
+}
+th, td {
+    border: 1px solid black;
+    padding: 5px;
+}
+body {
+    font-family: sans-serif;
+}
+#vermelho {
+    background-color: red;
+    color: white;
+}
+#amarelo {
+    background-color: yellow;
+}
+#laranja {
+    background-color: orange;
+    color: white;
+}
+#verde {
+    background-color: greenyellow;
+}
+#azul {
+    background-color: lightskyblue;
+}
+#roxo {
+    background-color: plum;
+    color: white;
+}
+#marrom {
+    background-color: brown;
+    color: white;
+}
+#preto {
+    background-color: black;
+    color: white;
+}
+#cinza {
+    background-color: grey;
+}
+#rosa {
+    background-color: pink;
+}
