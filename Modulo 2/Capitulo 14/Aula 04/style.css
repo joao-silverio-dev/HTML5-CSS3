@@ -1,0 +1,11 @@
+@font-face {
+    font-family: 'madloud';
+    src: url(tf_madloud/TF\ Madloud\ DEMO.otf) format('opentype');
+    font-weight: normal;
+    font-style: normal;
+}
+h1 {
+    font-family: 'madloud';
+    font-size: 3em;
+    font-weight: normal;
+}
