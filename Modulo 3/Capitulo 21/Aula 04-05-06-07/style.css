@@ -13,4 +13,21 @@ thead > tr > th {
     border: 1px solid black
 }
 thead, tfoot {
-   
+    background-color: gray;
+    color: white;
+}
+tbody > tr:nth-child(2n) {
+    background-color: lightgray;
+}
+td, th{
+    border: 1px solid black;
+    padding: 8px; 
+}
+td.num {
+    text-align: right;
+}
+caption {
+    font-size: 1.2em;
+    padding: 5px;
+    background-color: lightgray;
+}
