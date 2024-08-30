@@ -1,0 +1,14 @@
+tr:nth-child(even) {
+    background-color: red;
+    color: white;
+}
+tr:nth-child(odd) {
+    background-color: white;
+    color: black;
+}
+th, td {
+    padding: 20px;
+}
+div#container {
+    overflow-x: auto;
+}
