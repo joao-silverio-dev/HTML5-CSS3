@@ -1,0 +1,29 @@
+:root {
+    --fonte-principal: Arial;
+    --cor01: rgba(245, 222, 179, 0.726);
+}
+body {
+    font-family: var(--fonte-principal);
+    margin: 0px;
+    padding: 0px;
+}
+nav {
+    background-color: wheat;
+    margin: 0px;
+    padding: 1%;
+    text-align: center;
+    align-content: center;
+}
+li {
+    display: inline;
+    padding: 10px;
+    border: solid 1px rgb(254, 198, 92);
+}
+li:hover {
+    background-color: rgb(132, 103, 49);
+    color: white;
+}
+main { 
+    background-color: var(--cor01);
+    margin: 0px;
+}
