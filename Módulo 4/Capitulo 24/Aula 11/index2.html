@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Title</title>
+  </head>
+  <body>
+    <h1>Exemplo</h1>
+    <fieldset>
+        <legend>Range</legend>
+        <form action="" method="post">
+            <p>
+                <label for="inum">Número: </label>
+                <input type="range" name="num" id="inum" oninput="out.innerHTML = Number(inum.value)">
+                <output id="out">50</output>
+            </p>
+            <p>
+                <input type="submit" value="Enviar">
+                <input type="reset" value="Reset">
+            </p>
+        </form>
+    </fieldset>
+    <a href="index.html">Site</a>
+  </body>
+</html>
