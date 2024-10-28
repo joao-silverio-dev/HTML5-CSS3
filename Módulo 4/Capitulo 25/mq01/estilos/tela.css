@@ -1,0 +1,37 @@
+@charset "UTF-8";
+/* Tela normal */
+
+* {
+    margin: 0px;
+    padding: 0px;
+}
+html {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1em;
+}
+
+header > h1 {
+    text-align: center;
+    background-color: gray;
+    padding: 10px;
+}
+menu > ul > li {
+    display: inline-block;
+    padding: 10px;
+    background-color: rgb(70, 70, 70);
+    color: white;
+}
+menu {
+    background-color: darkgray;
+}
+article > h2 {
+    text-align: center;
+    margin: 10px;
+}
+article {
+    width: 50%;
+    display: block;
+    margin: auto;
+    text-align: justify;
+    left: 50%;
+}
