@@ -24,7 +24,7 @@
         background-position: bottom;
     }
 }
-
+ 
 /* Declarações para Paisagem */
 @media screen and (orientation: landscape) {
     body {
