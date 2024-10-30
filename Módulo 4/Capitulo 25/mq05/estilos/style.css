@@ -53,14 +53,15 @@ menu > ul > li > a {
     color: white;
 }
 main {
+    width: 90vw;
     padding: 10px;
+    margin: auto;
 }
 article {
     border-radius: 10px;
     background-color: white;
     margin: auto;
     padding: 10px;
-    width: 80vw;
     max-width: 700px;
 }
 article > p {
