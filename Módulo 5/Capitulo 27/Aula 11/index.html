@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercicio 027</title>
+    <style>
+        .externo {
+            background-color: aqua;
+            display: flex;
+            margin: 20px;
+            padding: 20px;
+        }
+        .interno {
+            background-color: red;
+            border-radius: 5px;
+            text-align: center;
+        }
+        #cxA {
+          flex: 0 1 500px;
+        }
+        #cxB {
+          flex: 4 2 500px;
+        }
+        #cxC {
+          flex: 1 4 500px;
+        }
+    </style>
+  </head>
+  <body>
+    <div class="externo">
+        <div class="interno" id="cxA">A</div>
+        <div class="interno" id="cxB">B</div>
+        <div class="interno" id="cxC">C</div>
+    </div>
+  </body>
+</html>
